@@ -1,0 +1,258 @@
+
+#group{
+  display: inline;
+  font-family: sans-serif;
+}
+
+.mainview{
+  background: #ccc;
+  padding: 1em;
+  width: 900px;
+  height: 800px;
+  margin: auto;
+}
+#matrix{
+  background: #f2f2f2;
+}
+#parallel{
+  background: #fff;
+}
+#list{
+  background: #ddd;
+}
+.mainview{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-gap: 1em;
+}
+
+.detailview{
+  background: #f2f2f2;
+  padding: 1em;
+  width: 900px;
+  height: 800px;
+  margin: auto;
+}
+
+#pan{
+  background: #f2f2f2;
+}
+#words{
+  background: #fff;
+}
+#bubble{
+  background: #ddd;
+}
+
+.detailview{
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-gap: 1em;
+}
+
+.dright{
+  display: grid;
+  grid-template-rows: 50% 50%
+}
+
+.selection{
+  text-align:center;
+}
+h1{
+  text-align:center;
+  font-family: sans-serif;
+}
+
+#list{
+  height: 800px;
+  overflow: auto;
+}
+.right > div:nth-child(odd){
+  background: #fff;
+}
+.right > div:nth-child(even){
+  background: #f2f2f2;
+}
+.right{
+  display: grid;
+  grid-template-rows: 65% 35%
+}
+
+#bubble{
+  display: grid;
+  grid-template-rows: 5% 45% 5% 45%;
+  text-align: center;
+}
+
+
+.gp {
+  font: 8px sans-serif;
+}
+
+.background path {
+  fill: none;
+  stroke: #ddd;
+  shape-rendering: crispEdges;
+}
+
+.foreground path {
+  fill: none;
+}
+
+.brushp .extent {
+  fill-opacity: .3;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+
+.axisp line,
+.axisp path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axisp text {
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+  cursor: move;
+}
+
+.axism,
+.frame {
+  shape-rendering: crispEdges;
+}
+
+.axism line {
+  stroke: #ddd;
+}
+
+.axism path {
+  display: none;
+}
+.axism text {
+  font: 8px sans-serif;
+}
+
+.title {
+  font: 12px sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.detail {
+  font: 10px sans-serif;
+  text-transform: capitalize;
+}
+
+.frame {
+  stroke: #aaa;
+}
+
+.dots {
+  fill-opacity: .7;
+}
+
+.dots.hidden {
+  fill: #ccc !important;
+}
+
+.extentm {
+  fill: #000;
+  fill-opacity: .125;
+  stroke: #fff;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    overflow-x: auto;
+    overflow-y: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+}
+
+
+.node {
+  font: 300 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  fill: #808080;
+}
+
+.node:hover {
+  fill: #000;
+}
+
+.link {
+  stroke: steelblue;
+  stroke-opacity: 0.4;
+  fill: none;
+  pointer-events: none;
+}
+
+.node:hover,
+.node--source,
+.node--target {
+  font-weight: 500;
+}
+
+.node--source {
+  fill: #2ca02c;
+}
+
+.node--target {
+  fill: #d62728;
+}
+
+.link--source,
+.link--target {
+  stroke-opacity: 1;
+  stroke-width: 2px;
+}
+
+.link--source {
+  stroke: #d62728;
+}
+
+.link--target {
+  stroke: #2ca02c;
+}
+
+#words {
+    font-family:"Lucida Grande","Droid Sans",Arial,Helvetica,sans-serif;
+}
+.legend {
+    border: 1px solid #555555;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 0.8em;
+    margin: 10px;
+    padding: 8px;
+}
+.bld {
+    font-weight: bold;
+}
+
+#t1{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#t2{
+  text-align: center;
+  font-family: sans-serif;
+}
